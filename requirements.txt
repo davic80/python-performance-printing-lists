@@ -1,0 +1,4 @@
+RandomWords==0.2.1
+numpy==1.18.4
+matplotlib==3.2.1
+Image==1.5.31
