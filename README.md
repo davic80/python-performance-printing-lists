@@ -25,9 +25,9 @@ Dependencies can be installed by running:
 ## Execution scenarios
 I have executed the program using small (5), medium (25) and big (100) lists.
 
-I have executed 1000 times (represented in series) multiply by 4, for words (two methods) and for numbers a(two methods). This was in order to avoid or discard external influece like background processes or CPU thermal throttling.
+I have executed 1000 times (represented in series) multiply by 4, for two type lists, word list with two methods and number list using also the two methods. This was in order to avoid/odiscard external influece like background processes and CPU thermal throttling.
 
-In order to avoid very small numbers, I run each command 50 times (represented in executions) and sumed to get a more readable figure.
+In order to have more readble figures and not so very small timings, I establish a variable to run each command 50 times (represented in executions) and added to get a more readable timming.
 
 All executions are interleaved by the way that iterates over the lists, so it is executed with a method for each type of list (words and numbers) and not all of one type and later those of another, which could mislead depending on CPU performance at that precise moment
 
